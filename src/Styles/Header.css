@@ -1,0 +1,17 @@
+.navbar-offwhite {
+  background-color: #f8f9fa; /* Off-white color */
+}
+
+.navbar-brand > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand > div > div {
+  margin-top: 5px; /* Adjust margin as needed */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
