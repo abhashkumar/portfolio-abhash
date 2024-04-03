@@ -3,6 +3,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import '../Styles/Header.css'
 
 const Header: React.FC = () => {
+
   return (
     <Navbar light expand="md" className="navbar-offwhite">
       <NavbarBrand className="mr-auto">

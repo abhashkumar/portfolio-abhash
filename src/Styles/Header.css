@@ -1,5 +1,9 @@
 .navbar-offwhite {
   background-color: #f8f9fa; /* Off-white color */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure navbar stays above other content */
 }
 
 .navbar-brand > div {
@@ -14,4 +18,44 @@
 .navbar-nav {
   display: flex;
   align-items: center;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 15px; /* Add space between navbar items */
+  list-style: none; /* Remove bullet points */
+}
+
+.navbar-nav .nav-link {
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  color: #333; /* Optional: Change link color */
+  text-decoration: none; /* Remove default underline */
+  position: relative; /* Enable absolute positioning for pseudo-element */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Position the underline below the link */
+  left: 0;
+  width: 0; /* Initially set width to 0 */
+  height: 2px;
+  background-color: #007bff; /* Color of the underline */
+  transition: width 0.3s; /* Smooth transition effect */
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%; /* Expand underline on hover or when active */
+}
+
+
+.container-fluid {
+  display:flex;
+  justify-content: space-between;
+  padding: 0 20px;
 }
