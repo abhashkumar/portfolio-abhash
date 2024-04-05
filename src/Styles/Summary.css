@@ -1,12 +1,17 @@
 .summary {
     padding: 50px 20px;
-    background-color: #007bff;
+    background-color: ghostwhite;
     color: #fff;
     height:100vh;
+  }
+
+  .summary h2 {
+    color: black;
   }
   
   .summary p {
     font-size: 20px;
     line-height: 1.6;
+    color:black;
   }
   
