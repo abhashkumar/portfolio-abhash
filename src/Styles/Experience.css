@@ -1,12 +1,12 @@
 .experience {
-    padding: 50px 20px;
-    background-color: #ffc107;
-    color: #343a40;
-    height:100vh;
+    padding: 50px 0px;
+    background-color: #f7f7f7;
   }
   
   .experience div {
     margin-bottom: 30px;
+    margin-left:4%;
+    margin-right:4%;
   }
   
   .experience h3 {

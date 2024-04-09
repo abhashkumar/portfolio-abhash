@@ -17,13 +17,13 @@ const Header: React.FC = () => {
           <NavLink href="#summary">About Me</NavLink>
         </NavItem>
         <NavItem>
+          <NavLink href="#experience">Experience</NavLink>
+        </NavItem>
+        <NavItem>
           <NavLink href="#education">Education</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#skills">Skills</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#experience">Experience</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#courses">Courses</NavLink>

@@ -1,17 +1,88 @@
+
 .summary {
-    padding: 50px 20px;
-    background-color: ghostwhite;
-    color: #fff;
-    height:100vh;
+  padding: 50px 0px;
+  background-color: #f7f7f7;
+  height:100vh;
+  display: flex;
+}
+
+.left-div {
+  flex: 1; /* Make left div take up all available space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: left;
+  margin-bottom:10%;
+}
+
+  canvas{
+    height:100vh !important;
+    width:99vw !important;
   }
 
-  .summary h2 {
-    color: black;
+  .summary-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .orange {
+    color: orange;
+  }
+
+  .about-me-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
   }
   
-  .summary p {
-    font-size: 20px;
-    line-height: 1.6;
-    color:black;
+  .social-icons {
+    display: flex;
+    align-items: flex-start; /* Align social icons to the start (left) */
+    margin-top: 20px;
+    margin-left: -10px;
   }
   
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .social-icon {
+    color: cyan;
+    font-size: 24px;
+  }
+
+  .right-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex:1;
+    margin-bottom: 5%;
+  }
+  
+  .circular-icon-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: blanchedalmond; /* Set background color to purple */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-24%;
+  }
+  .hi-icon {
+    width: 475px; /* Adjust the size of the SVG icon */
+    height: 400px;
+  }

@@ -47,14 +47,14 @@ const App: React.FC = () => {
   return (
     <div>
       <Header />
-      <main className="container mt-5">
+      <div className="container mt-5">
         <Summary />
+        <Experience />
         <Education />
         <Skills />
-        <Experience />
         <Courses />
         <Interests />
-      </main>
+      </div>
     </div>
   );
 };

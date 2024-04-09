@@ -61,14 +61,14 @@ const ParticleBackground = () => {
             default: "out",
           },
           random: false,
-          speed: 6,
+          speed: 3,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 200,
+          value: 120,
         },
         opacity: {
           value: 0.5,

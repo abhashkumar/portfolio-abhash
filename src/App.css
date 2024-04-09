@@ -1,5 +1,6 @@
 #root {
   text-align: center;
+  width:100%;
 }
 
 .logo {
@@ -36,4 +37,19 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Thin blue scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #87CEEB; /* Set the background color of the scrollbar track to sky blue */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #193b59; /* Set the color of the scrollbar thumb to blue */
 }
