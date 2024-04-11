@@ -4,7 +4,6 @@
   }
   
   .experience div {
-    margin-bottom: 30px;
     margin-left:4%;
     margin-right:4%;
   }
@@ -28,3 +27,8 @@
     margin-bottom: 10px;
   }
   
+  .experience-heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add some margin below the heading */
+  }

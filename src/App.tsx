@@ -50,8 +50,8 @@ const App: React.FC = () => {
       <div className="container mt-5">
         <Summary />
         <Experience />
-        <Education />
         <Skills />
+        <Education />
         <Courses />
         <Interests />
       </div>

@@ -1,17 +1,40 @@
 .skills {
     padding: 50px 0px;
-    background-color: #28a745;
-    color: #fff;
-    height:100vh;
+    background-color: #f7f7f7;
   }
   
-  .skills ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .skills li {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
+/* SkillsSection.css */
+.skills-section {
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-evenly; /* Evenly distribute items */
+  margin: 0 auto; /* Center the grid */
+  flex-direction: column;
+  margin-left:7%;
+  margin-right:7%;
+}
+
+.skill-row {
+  display: flex;
+  margin: 10px; /* Add margin between cells */
+  justify-content: space-between;
+}
+
+.skill-cell {
+  flex: 1;
+  padding: 20px; /* Adjust padding for better spacing */
+  border-radius: 10px;
+  background-color: white;
+  color:white;
+  transition: transform 0.3s ease;
+  margin: 1%;
+  height:7rem;
+}
+
+.skill-cell:hover {
+  transform: translateY(-5px) rotateX(5deg);
+}

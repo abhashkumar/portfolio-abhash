@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container} from 'reactstrap';
 import '../Styles/Experience.css'; // Import CSS for experience animation
 import './helper/Styles/ProjectCard.css';
 import ProjectCard from './helper/ProjectCard';
@@ -10,6 +9,7 @@ import GE from '../assets/GE-removebg-preview.png';
 const Experience: React.FC = () => {
   return (
     <section id="experience" className="experience">
+    <h2 className="experience-heading">Experience</h2>
     <div className="projects">
       <ProjectCard
         company="Availity, Bangalore"
