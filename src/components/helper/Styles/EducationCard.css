@@ -1,0 +1,36 @@
+/* EducationCard.css */
+.education-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-basis: 50%;
+    margin:1%;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .education-top {
+    width: 100%;
+  }
+  
+  .circular-area {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:auto;
+  }
+  
+  .education-bottom {
+    text-align: center;
+  }
+  

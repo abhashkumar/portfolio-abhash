@@ -27,7 +27,7 @@ const renderSkillRow = (row: number, location:string[]) => {
     <div className="skill-row" key={row}>
       {location.map(column => (
         <div className="skill-cell" key={`${row}-${column}`}>
-          <img src={column} alt="Logo" className="brand-logo" />
+          <img src={column} alt="Logo" className="skill-logo" />
         </div>
       ))}
     </div>

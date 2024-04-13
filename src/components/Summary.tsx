@@ -1,7 +1,7 @@
 // SummarySection.tsx
 import React from 'react';
 import { FaChevronDown, FaLinkedin, FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
-import HiIcon from  '../assets/bear-removebg-preview.png'; // Import the SVG for the Hi icon
+import HiIcon from  '../assets/pikachu-dhoom-dhadaka-removebg-preview.png'; // Import the SVG for the Hi icon
 import '../Styles/Summary.css';
 import ParticleBackground from './helper/ParticleBackground';
 
@@ -12,7 +12,7 @@ const Summary: React.FC = () => {
       <div className="left-div">
         <div className="summary-content">
           <h1>
-            Hi There,
+            Hi <span className="orange">There,</span>
             <br />
             I'm Abhash <span className="orange">Kumar</span>
           </h1>

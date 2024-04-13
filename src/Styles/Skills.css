@@ -14,8 +14,8 @@
   justify-content: space-evenly; /* Evenly distribute items */
   margin: 0 auto; /* Center the grid */
   flex-direction: column;
-  margin-left:7%;
-  margin-right:7%;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 .skill-row {
@@ -28,8 +28,7 @@
   flex: 1;
   padding: 20px; /* Adjust padding for better spacing */
   border-radius: 10px;
-  background-color: white;
-  color:white;
+  background-color: black;
   transition: transform 0.3s ease;
   margin: 1%;
   height:7rem;
@@ -37,4 +36,10 @@
 
 .skill-cell:hover {
   transform: translateY(-5px) rotateX(5deg);
+}
+
+.skill-logo{
+  height:5em;
+  will-change: filter;
+  transition: filter 300ms;
 }

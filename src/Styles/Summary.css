@@ -75,13 +75,19 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: blanchedalmond; /* Set background color to purple */
+    background-color: black; /* Set background color to purple */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left:-24%;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+  }
+  .circular-icon-container:hover {
+    transform: translateY(-5px);
   }
   .hi-icon {
-    width: 475px; /* Adjust the size of the SVG icon */
-    height: 400px;
+    width: 390px; /* Adjust the size of the SVG icon */
+    height: 500px;
   }

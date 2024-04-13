@@ -23,7 +23,6 @@
   
   .left {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     align-items: center;
   }
   
@@ -38,7 +37,6 @@
   
   .right ul li {
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif; /* Set font family */
     text-align: left; /* Left-align multi-line text */
   }
   

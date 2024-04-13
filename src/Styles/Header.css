@@ -36,7 +36,6 @@
   color: #333; /* Optional: Change link color */
   text-decoration: none; /* Remove default underline */
   position: relative; /* Enable absolute positioning for pseudo-element */
-  font-family: 'Roboto', sans-serif; /* Apply Roboto font to nav links */
   font-weight: bold; 
 }
 
