@@ -28,7 +28,7 @@
   flex: 1;
   padding: 20px; /* Adjust padding for better spacing */
   border-radius: 10px;
-  background-color: black;
+  background-color: #f0f0f0;
   transition: transform 0.3s ease;
   margin: 1%;
   height:7rem;

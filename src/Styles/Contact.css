@@ -1,0 +1,82 @@
+/* ContactForm.css */
+.contact {
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+    color: black;
+} 
+.contact-Us-Container{
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  display:flex;
+  background-color: beige;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.left-contact, .right-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-basis: 50%;
+}
+
+form {
+  width:100%;
+  margin-top:3%;
+  margin-right:25%;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    pointer-events: none; /* Ensure label doesn't interfere with input */
+    color: #999;
+    transition: transform 0.3s, font-size 0.3s;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Adjust as needed to accommodate icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .contact-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #aaa;
+  }
+  
+  /* Add focus styles for better UX */
+  input:focus + label,
+  textarea:focus + label {
+    transform: translateY(-120%) scale(0.8);
+  }
+  
+  /* Hide label when input has value */
+  input:not(:placeholder-shown) + label,
+  textarea:not(:placeholder-shown) + label {
+    transform: translateY(-120%) scale(0.8);
+  }
+  

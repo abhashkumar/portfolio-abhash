@@ -6,7 +6,8 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Courses from './components/Courses';
-import Interests from './components/Interests';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('summary');
@@ -53,7 +54,8 @@ const App: React.FC = () => {
         <Skills />
         <Education />
         <Courses />
-        <Interests />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

@@ -24,10 +24,10 @@ const Header: React.FC = () => {
           <NavLink href="#education">Education</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#courses">Courses</NavLink>
+          <NavLink href="#courses">Courses & Interests</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#interests">Interests</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </NavItem>
       </Nav>
     </Navbar>

@@ -16,11 +16,6 @@
   margin-bottom:10%;
 }
 
-  canvas{
-    height:100vh !important;
-    width:99vw !important;
-  }
-
   .summary-content {
     max-width: 600px;
     margin: 0 auto;

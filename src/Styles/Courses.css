@@ -1,17 +1,41 @@
 .courses {
     padding: 50px 0px;
-    background-color: #dc3545;
-    color: #fff;
-    height:100vh;
+    background-color:  #f7f7f7;
+    color: black;
   }
   
-  .courses ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .courses li {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
+
+ .education-interests-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+ .div-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-basis: 50%;
+    margin: 1%;
+ }
+
+ .div-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.items{
+   font-size:18px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
