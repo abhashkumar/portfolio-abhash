@@ -1,3 +1,7 @@
 .particle-position {
-position:absolute;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
 }

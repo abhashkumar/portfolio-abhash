@@ -34,7 +34,7 @@ const ProjectCard: React.FC<{ company: string, position: string, duration: strin
             )}
           </ul>
           {description.length > 2 && (
-            <button onClick={toggleShowAll} className="show-more-button">
+            <button onClick={toggleShowAll} className="show-more-button" key={`proj-${company}`}>
               {showAll ? "Show less" : "Show more"}
             </button>
           )}

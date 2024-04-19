@@ -44,7 +44,7 @@ const Skills: React.FC = () => {
         {renderSkillRow(1, [rlogo,  js, ts, csharp, xunit])}
         {renderSkillRow(2, [netCore, aws, coverlet, efcore, opentelemetry])}
         {renderSkillRow(3, [docker, graphana, prometheus, kubernetes, sql])}
-        {renderSkillRow(3, [mongo, jest, moq, jenkins, git])}
+        {renderSkillRow(4, [mongo, jest, moq, jenkins, git])}
       </div>
     </div>
     </section>

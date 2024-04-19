@@ -1,4 +1,8 @@
 footer{
-    height:50vh;
+    height:36vh;
     background-color: black;
+}
+
+footer > p{
+    color:white
 }
