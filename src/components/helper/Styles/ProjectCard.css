@@ -68,9 +68,6 @@
     object-fit: cover; /* Maintain aspect ratio */
   }
   
-  .info {
-  }
-  
   .designation {
     font-style: italic; /* Italicize designation */
   }

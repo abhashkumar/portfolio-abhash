@@ -10,7 +10,7 @@ import { FaBriefcase } from 'react-icons/fa';
 const Experience: React.FC = () => {
   return (
     <section id="experience" className="experience">
-    <h2 className="experience-heading"><FaBriefcase /><span>Experience</span></h2>
+    <h2 className="experience-heading"><FaBriefcase />Experience</h2>
     <div className="projects">
       <ProjectCard
         company="Availity, Bangalore"
