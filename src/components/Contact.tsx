@@ -12,11 +12,11 @@ const Contact: React.FC = () => {
     message: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const { name, email,phone,  message } = formData;
     const mailtoLink = `mailto:abhashmaddi@gmail.com?subject=Contact Form Submission&body=Name: ${name}%0D%0APhone:${phone}%0D%0AEmail : ${email}%0D%0AMessage: ${message}`;
@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
       </div>
       <div className="form-group">
         <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows={4} required onChange={handleChange} placeholder="Message"></textarea>
+        <textarea id="message" name="message" rows={4} required onChange={()=>handleChange} placeholder="Message"></textarea>
         <FaComment className="contact-icon" />
       </div>
       <button type="submit"><FaPaperPlane /> Submit</button>
