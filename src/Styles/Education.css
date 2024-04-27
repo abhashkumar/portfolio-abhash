@@ -1,13 +1,6 @@
-.education {
-    padding: 50px 0px;
-    color: black;
-  }
-
   .education-section {
     display: flex;
     justify-content: space-between; /* Add space between the cards */
-    margin-left:10%;
-    margin-right:10%;
   }
 
   .nsec-logo{

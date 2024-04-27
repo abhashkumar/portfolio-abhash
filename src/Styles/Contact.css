@@ -1,12 +1,5 @@
-/* ContactForm.css */
-.contact {
-    padding: 50px 0px;
-    color: black;
-} 
 .contact-Us-Container{
   justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
   display:flex;
   background-color: beige;
   border: 2px solid black;

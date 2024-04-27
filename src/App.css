@@ -1,6 +1,5 @@
 #root {
   text-align: center;
-  width:100%;
   background: linear-gradient(to right, #f7f7f7, #ffccd6);
 }
 
@@ -55,3 +54,8 @@
   background: #193b59; /* Set the color of the scrollbar thumb to blue */
 }
 
+.container section{
+  padding: 50px 0px;
+  margin-left:10rem;
+  margin-right:10rem;
+}
