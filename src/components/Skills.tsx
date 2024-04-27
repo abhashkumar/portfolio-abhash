@@ -41,10 +41,11 @@ const Skills: React.FC = () => {
     <div className="skills-section">
       <h2><FaTools />Skills</h2>
       <div className="skills-grid">
-        {renderSkillRow(1, [rlogo,  js, ts, csharp, xunit])}
-        {renderSkillRow(2, [netCore, aws, coverlet, efcore, opentelemetry])}
-        {renderSkillRow(3, [docker, graphana, prometheus, kubernetes, sql])}
-        {renderSkillRow(4, [mongo, jest, moq, jenkins, git])}
+        {renderSkillRow(1, [rlogo,  js, aws, csharp])}
+        {renderSkillRow(2, [netCore, ts, coverlet, efcore])}
+        {renderSkillRow(3, [docker, graphana, prometheus, kubernetes])}
+        {renderSkillRow(4, [mongo, jest, moq, jenkins])}
+        {renderSkillRow(5, [xunit, opentelemetry, sql, git])}
       </div>
     </div>
     </section>
