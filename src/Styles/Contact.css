@@ -4,6 +4,7 @@
   background-color: beige;
   border: 2px solid black;
   border-radius: 10px;
+  max-height:26rem;
 }
 
 .left-contact, .right-contact{
@@ -14,6 +15,10 @@
   padding: 20px;
   margin-bottom: 20px;
   flex-basis: 50%;
+}
+
+.right-contact{
+  margin-right:5%;
 }
 
 form {
@@ -70,5 +75,10 @@ form {
   input:not(:placeholder-shown) + label,
   textarea:not(:placeholder-shown) + label {
     transform: translateY(-120%) scale(0.8);
+  }
+
+  .left-contact img{
+    width:90%;
+    height:100%;
   }
   
