@@ -44,6 +44,13 @@
   width: 8px; /* Set the width of the scrollbar */
 }
 
+/* Adjust scrollbar width for smaller screens */
+@media (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 15px; /* Decrease width for smaller screens */
+  }
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #87CEEB; /* Set the background color of the scrollbar track to sky blue */

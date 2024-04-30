@@ -3,6 +3,13 @@ footer{
     background-color: black;
 }
 
+/* Adjust height for smaller screens */
+@media (max-width: 600px) {
+    footer {
+      height: 60vh; /* Change height for smaller screens */
+    }
+  }
+
 footer > p{
     color:white
 }
